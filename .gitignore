@@ -1,0 +1,19 @@
+# Python-related
+*.pyc
+__pycache__
+
+# Virtual Environment
+venv/
+.env/
+
+# Vercel-related (can be added for better deployment handling)
+.vercel/
+
+# macOS-specific (if you're using macOS)
+.DS_Store
+
+# IDE-related (if using VS Code or similar)
+.vscode/
+
+# Other sensitive files (for example, .env containing secrets, API keys, etc.)
+.env
