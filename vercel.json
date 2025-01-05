@@ -3,11 +3,15 @@
     "builds": [
       {
         "src": "app.py",
-        "use": "@vercel/python"
+        "use": "@vercel/python",
+        "config": {
+          "maxLambdaSize": "15mb"
+        }
       }
     ],
     "env": {
       "MONGO_URI": "mongodb+srv://vedanshtyagibrd19:Jjt7WMbpnvuefo49@cluster0.t0jae.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-    }
+    },
+    "buildCommand": "pip install -r requirements.txt" 
   }
   
