@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "env": {
+      "MONGO_URI": "mongodb+srv://vedanshtyagibrd19:Jjt7WMbpnvuefo49@cluster0.t0jae.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    }
+  }
+  
